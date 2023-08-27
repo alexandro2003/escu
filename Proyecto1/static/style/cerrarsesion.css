@@ -1,0 +1,159 @@
+/*bienvenido*/
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color:#d4d4c8;
+    padding: 0px;
+    width: 100%;
+    height: 61px;
+    box-shadow: 0 1px 0 #979494;
+}
+
+.bienvenido1{
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 165px;
+    position: relative;
+    top: 5px;
+}
+.logo{
+    display: flex;
+    order: 3;
+    margin-left: auto;
+    position: relative;
+    left: 0px;
+}
+.logo img{
+    height: 60px;
+    
+}
+
+.rectangulo{
+        width: 100%;
+        height: 103px;
+        background: #60A3F2;
+        border-radius: 5px;
+        position: relative;
+        left: -1px;
+        top: 10px;
+}
+.imagenperfil{
+        position:relative;
+        left: 20px;
+        top: 35px;
+        width: 80px;
+        height: 80px;
+        background-color: white;
+        border-radius: 50%;
+        border:1px solid #00000089;   
+}
+.cerrar-sesion{
+    background-color: #d4d4c8;
+    position: relative;
+    width: 320px;
+    height: 250px;
+    border-radius: 40px;
+    top: 110px;
+    left: 75px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    font-size: 15px;
+    font-weight: 100;
+}
+.tit-cerrar{
+    font-weight: 1;
+    position: relative;
+    top: 15px;
+    left: 10px;
+}
+.btn-cerrar{
+    background-color: red;
+    color: black;
+    text-decoration: none;
+    font-size: 27px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    width: 240px;
+    text-align: center;
+    height: 40px;
+    border-radius: 20px;
+    position: relative;
+    left: 40px;
+    top: 30px;
+   
+}
+.btn-cancelar{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    width: 240px;
+    text-align: center;
+    height: 40px;
+    border-radius: 20px;
+    position: relative;
+    left: 40px;
+    top: 50px;
+}
+
+footer{
+    background-color: #60A3F2;
+    position: relative;
+    top: 2px;
+    
+}
+.social-footer{
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    text-align: center;
+    width: 100%;
+    left: -100px;
+    top: 30px;
+
+}
+.link-footer{
+    position: relative;
+    padding: 0%;
+    text-decoration: none;
+    position: relative;
+    left: -20px;
+    top: -10px;
+    width: 500px;
+    font-size: x-small;
+    color: black;
+}
+
+.info-footer{
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    text-align: center;
+    width: 100%;
+    left: 90px;
+    top: -75px;
+}
+
+
+.parrafo-footer{
+    text-decoration: none;
+    position: relative;
+    left: -60px;
+    width: 500px;
+    font-size: x-small;
+    color: black;
+    
+}
+
+.footer-logo{
+    text-align: center;
+}
+.footer-logo img{
+    width: 60px;
+    height: 70px;
+    position: relative;
+    top: 5px;
+}

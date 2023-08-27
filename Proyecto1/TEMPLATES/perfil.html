@@ -1,0 +1,97 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'style/perfil.css' %}">
+
+</head>
+<body>
+    <header>
+        <h1 class="tituloperfil">Perfil</h1>
+        <div class="logo">
+            <img src="{% static 'logoescu.png' %}" alt="logo">  
+        </div>
+    </header>
+    <div class="rectangulo">
+        <a class="editar-perfil" href="{% url 'editarperfil' %}">EDITAR PERFIL</a>
+        <div class="imagenperfil">
+            <span class="avatar"></span>
+        </div>
+    </div>
+
+<!--informaacion-->
+<div class="informacion">
+    <h2 class="info">Informacion</h2>
+    <ul>
+        <li>
+            Nombre:
+        </li>
+        <li>
+            apellido:
+        </li>
+        <li>
+            Contacto:
+        </li>
+        <li>
+            Fecha de nacimiento:
+        </li>
+        <li>
+            Correo electronico:
+        </li>
+    </ul>
+
+</div>
+<div class="inscriptomaterias">
+    <h2 class="info">Inscripto en:</h2>
+    <ul>
+        <li>
+            Ingles
+        </li>
+        <li>
+            Estadistica
+        </li>
+        <li>
+            Practica profecionalizante
+        </li>
+        <li>
+            Estrategia de Negocio
+        </li>
+        <li>
+            Innovacion y desarrollo emprendedor
+        </li>
+    </ul>
+
+</div>
+
+<a class="boton" href="{% url 'home' %}">Inicio</a>
+
+<footer> 
+    <div class="footer-logo">
+        <img src="{% static 'logoescu.png' %}" alt="logo"> 
+    </div>
+    <hr>
+    <div>
+        <br>
+        <h1 class="social-footer"> Redes Sociales
+            <ul>
+                <a class="link-footer"  href="#">Instagram </a><br>
+                <a class="link-footer"  href="#">Pagina Oficial </a>
+                <br>
+            </ul>
+        </h1>
+    </div>
+    <div>
+        <h1 class="info-footer"> Informacion
+            <ul>
+                <p class="parrafo-footer ">Contacto: 03471-422131</p>
+                <p class="parrafo-footer">Ubicacion: Bv. Centenario 1075,<br> Cañada de Gomez.</p></li>
+                <br>
+            </ul>
+        </h1>
+    </div>
+</footer>
+</body>
+</html>

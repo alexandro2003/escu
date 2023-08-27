@@ -1,0 +1,89 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editar avatar</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'avatar.css' %}">
+
+</head>
+<body>
+    <header>
+        <h1 class="bienvenido1">Editar avatar</h1>
+        <div class="logo">
+          <img src="{% static 'logoescu.png' %}" alt="logo"> 
+        </div>
+    </header>
+    <a class="cancelar" href="{% url 'perfil' %}">CANCELAR</a>
+    <br>
+    <h1 class="titulo-avatar">AVATAR:
+    <p class="sub-avatar">haga click sobre un avatar para seleccionarlo.</p>
+    </h1>
+    <form>
+
+
+
+        <form accept-charset="UTF-8" action="/account/submit_avatar" id="avatar_form" method="post"><div style="display:none"><input name="utf8" type="hidden" value="✓"><input name="authenticity_token" type="hidden" value="r7NdEctn9+MLxI26CtEllvCKawlvTq9traP5t/S2RIE="></div>
+            <p>
+          
+                </p><div class="avatar_select">
+                  <input id="avatar_710" name="avatar" onclick="submit_form('avatar_form');" type="radio" value="710" class="emptyLabel">
+                  <label for="avatar_710"><img alt="Generic 01" border="1" height="50" src="/images/avatars/silhouettes/generic-01.png?1689094296" width="50"></label>
+                </div>      
+                <div class="avatar_select">
+                  <input id="avatar_711" name="avatar" onclick="submit_form('avatar_form');" type="radio" value="711" class="emptyLabel">
+                  <label for="avatar_711"><img alt="Generic 02" border="1" height="50" src="/images/avatars/silhouettes/generic-02.png?1689094296" width="50"></label>
+                </div>      
+                <div class="avatar_select">
+                  <input id="avatar_712" name="avatar" onclick="submit_form('avatar_form');" type="radio" value="712" class="emptyLabel">
+                  <label for="avatar_712"><img alt="Generic 03" border="1" height="50" src="/images/avatars/silhouettes/generic-03.png?1689094296" width="50"></label>
+                </div>      
+                <div class="avatar_select">
+                  <input id="avatar_713" name="avatar" onclick="submit_form('avatar_form');" type="radio" value="713" class="emptyLabel">
+                  <label for="avatar_713"><img alt="Generic 04" border="1" height="50" src="/images/avatars/silhouettes/generic-04.png?1689094296" width="50"></label>
+                </div>      
+                <div class="avatar_select">
+                  <input id="avatar_714" name="avatar" onclick="submit_form('avatar_form');" type="radio" value="714" class="emptyLabel">
+                  <label for="avatar_714"><img alt="Generic 05" border="1" height="50" src="/images/avatars/silhouettes/generic-05.png?1689094296" width="50"></label>
+                </div>      
+                <div class="avatar_select">
+                  <input id="avatar_715" name="avatar" onclick="submit_form('avatar_form');" type="radio" value="715" class="emptyLabel">
+                  <label for="avatar_715"><img alt="Generic 06" border="1" height="50" src="/images/avatars/silhouettes/generic-06.png?1689094296" width="50"></label>
+                </div>      
+                <div class="avatar_select">
+                  <input id="avatar_716" name="avatar" onclick="submit_form('avatar_form');" type="radio" value="716" class="emptyLabel">
+                  <label for="avatar_716"><img alt="Generic 07" border="1" height="50" src="/images/avatars/silhouettes/generic-07.png?1689094296" width="50"></label>
+                </div>      
+            <p></p>
+          </form>
+    </form>
+
+    <footer> 
+      <div class="footer-logo">
+        <img src="{% static 'logoescu.png' %}" alt="logo"> 
+      </div>
+      <hr>
+      <div>
+          <br>
+          <h1 class="social-footer"> Redes Sociales
+              <ul>
+                  <a class="link-footer"  href="#">Instagram </a><br>
+                  <a class="link-footer"  href="#">Pagina Oficial </a>
+                  <br>
+              </ul>
+          </h1>
+      </div>
+      <div>
+          <h1 class="info-footer"> Informacion
+              <ul>
+                  <p class="parrafo-footer ">Contacto: 03471-422131</p>
+                  <p class="parrafo-footer">Ubicacion: Bv. Centenario 1075,<br> Cañada de Gomez.</p></li>
+                  <br>
+              </ul>
+          </h1>
+      </div>
+  </footer>
+    
+</body>
+</html>

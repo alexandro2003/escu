@@ -1,0 +1,135 @@
+/*bienvenido*/
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color:#d4d4c8;
+    padding: 0px;
+    width: 100%;
+    height: 61px;
+    box-shadow: 0 1px 0 #979494;
+}
+
+.bienvenido1{
+    font-size:larger;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 150px;
+    position: relative;
+    top: 5px;
+}
+.logo{
+    display: flex;
+    order: 3;
+    margin-left: auto;
+}
+.logo img{
+    height: 60px;
+    
+}
+
+/*FORMULARIO*/
+.inscripcionmat{
+    position: relative;
+    left: 0px;
+    top: 0px;
+    width: 292px;
+    height: 449px;
+    margin: auto;
+    background:#60A3F2;
+    padding: 30px;/*para que no este pegado al borde*/
+    border-radius: 10px;
+    font-family: arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: lighter;
+    box-shadow: 2px 2px 2px #423e3e;/*sombra*/
+}
+.inscripcionm{
+    position: relative;
+    width: 300px;
+    height: 30px;
+    left: -5px;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+}
+.tituloinscripcion{
+    position: relative;
+    top: 5px;
+    left: 85px;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+.boton{
+    display: block;
+    width: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    background-color: #60A3F2;
+    border-radius: 40px;
+    padding: 20px 30px;
+    margin: 100px 620px;
+    color: #000;
+    text-decoration: none;/* elimina linea*/
+    text-align: center;
+    position: relative;
+    left: -520px;
+    top: -30px;
+}
+
+footer{
+    background-color: #60A3F2;
+    position: relative;
+    top: 55px;
+}
+.social-footer{
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    text-align: center;
+    width: 100%;
+    left: -100px;
+    top: 30px;
+
+}
+.link-footer{
+    position: relative;
+    padding: 0%;
+    text-decoration: none;
+    position: relative;
+    left: -20px;
+    top: -10px;
+    width: 500px;
+    font-size: x-small;
+    color: black;
+}
+
+.info-footer{
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    text-align: center;
+    width: 100%;
+    left: 90px;
+    top: -75px;
+}
+
+
+.parrafo-footer{
+    text-decoration: none;
+    position: relative;
+    left: -57px;
+    width: 500px;
+    font-size: x-small;
+    color: black;
+    
+}
+
+.footer-logo{
+    text-align: center;
+}
+.footer-logo img{
+    width: 60px;
+    height: 70px;
+    position: relative;
+    top: 5px;
+}

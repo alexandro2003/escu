@@ -1,0 +1,132 @@
+header{
+    display:flex;/*para que los elementos se muestren horizontal*/ 
+    background-color: #60A3F2;
+    height: 100px;
+    width: 100%;
+}
+.logo{
+    display: flex;
+    position: relative;
+    left: 200px;
+    top: 10px;
+}
+.logo img{
+    width: 90px;
+    height: 80px;
+    text-align: center;
+}
+
+
+.nombre{
+    text-align: center;
+    font-size: 30px;
+    font-family: arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: lighter;
+    position: relative;
+    left: 10px;
+    top: 10px;
+}
+
+/*BOTON INICIAR Y REGISTRARSE*/
+
+.botoniniciar{
+    display: block;
+    width: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    background-color: #60A3F2;
+    border-radius: 40px;
+    padding: 20px 30px;
+    margin: 100px 620px;
+    color: #000;
+    text-decoration: none;/* elimina linea*/
+    text-align: center;
+    position: relative;
+    left: -497px;
+    top: -40px;
+    width: 180px;
+}
+.botoniniciar:hover {
+    background-color: rgb(6, 76, 106);
+    color:#60A3F2
+}
+.botonregistrarse{
+    display: block;
+    width: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    background-color: #60A3F2;
+    border-radius: 40px;
+    padding: 20px 30px;
+    margin: 100px 620px;
+    color: #000;
+    text-decoration: none;/* elimina linea*/
+    text-align: center;
+    position: relative;
+    left: -484px;
+    width: 149px;
+    top: -130px;
+}
+.botonregistrarse:hover {
+    background-color: rgb(6, 76, 106);
+    color:#60A3F2
+} 
+
+footer{
+    background-color: #60A3F2;
+    position: relative;
+    top: 55px;
+}
+.social-footer{
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    text-align: center;
+    width: 100%;
+    left: -100px;
+    top: 30px;
+
+}
+.link-footer{
+    position: relative;
+    padding: 0%;
+    text-decoration: none;
+    position: relative;
+    left: -20px;
+    top: -8px;
+    width: 500px;
+    font-size: x-small;
+    color: black;
+}
+
+.info-footer{
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    text-align: center;
+    width: 100%;
+    left: 95px;
+    top: -75px;
+}
+
+
+.parrafo-footer{
+    text-decoration: none;
+    position: relative;
+    left: -60px;
+    width: 500px;
+    font-size: x-small;
+    color: black;
+    
+}
+
+.footer-logo{
+    text-align: center;
+}
+.footer-logo img{
+    width: 60px;
+    height: 70px;
+    position: relative;
+    top: 5px;
+}

@@ -1,0 +1,64 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrarse</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'style/registrarse.css' %}">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="{% static 'logoescu.png' %}" alt="logo"> 
+        </div>
+    </header>
+
+    <br>
+    <br>
+    <h1 class="nombre"> Colegio Sup. 47 <br> Florentino Ameghino</h1>
+    <br>
+    <br>
+<!-- FORMULARIO INICIO SESION-->
+    <section class="formularioregistro">
+        <form method="POST" action="{% url 'registro' %}">
+            {% csrf_token %}
+            <input class="registro" type="text" name="nombre" id="nombre" placeholder="Nombre">
+            <input class="registro" type="text" name="apellido" id="apellido" placeholder="Apellido">
+            <input class="registro" type="text" name="dni" id="dni" placeholder="DNI">
+            <input class="registro" type="text" name="correoelectronico" id="correoelectronico" placeholder="Correo Electrónico">
+            <input class="registro" type="password" name="contraseña" id="contraseña" placeholder="Contraseña">
+            <button class="boton" type="submit" href="inicio.html">Registrar</button>
+        </form>
+    </section>
+    <br>
+    <br>
+    <!--Info-->
+    <footer> 
+        <div class="footer-logo">
+            <img src="{% static 'logoescu.png' %}" alt="logo"> 
+        </div>
+        <hr>
+        <div>
+            <br>
+            <h1 class="social-footer"> Redes Sociales
+                <ul>
+                    <a class="link-footer"  href="#">Instagram </a><br>
+                    <a class="link-footer"  href="#">Pagina Oficial </a>
+                    <br>
+                </ul>
+            </h1>
+        </div>
+        <div>
+            <h1 class="info-footer"> Informacion
+                <ul>
+                    <p class="parrafo-footer ">Contacto: 03471-422131</p>
+                    <p class="parrafo-footer">Ubicacion: Bv. Centenario 1075,<br> Cañada de Gomez.</p></li>
+                    <br>
+                </ul>
+            </h1>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,57 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cerrar sesion</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'style/cerrarsesion.css' %}">
+
+</head>
+<body>
+    <header>
+        <h1 class="bienvenido1">Cerrar Sesion</h1>
+        <div class="logo">
+            <img src="{% static 'logoescu.png' %}" alt="logo"> 
+        </div>
+    </header>
+    <div class="rectangulo">
+        <div class="imagenperfil">
+            <span class="avatar"></span>
+        </div>
+    </div>
+    <form>
+        <div class="cerrar-sesion">
+        <h2 class="tit-cerrar">¿Desea cerrar sesion?</h2>
+        <a class="btn-cerrar" href="{% url 'inicio' %}">Salir</a><br>
+        <a class="btn-cancelar" href="{% url 'home' %}">Cancelar</a>
+        </div>
+    </form><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <footer> 
+        <div class="footer-logo">
+            <img src="{% static 'logoescu.png' %}" alt="logo"> 
+        </div>
+        <hr>
+        <div>
+            <br>
+            <h1 class="social-footer"> Redes Sociales
+                <ul>
+                    <a class="link-footer"  href="#">Instagram </a><br>
+                    <a class="link-footer"  href="#">Pagina Oficial </a>
+                    <br>
+                </ul>
+            </h1>
+        </div>
+        <div>
+            <h1 class="info-footer"> Informacion
+                <ul>
+                    <p class="parrafo-footer ">Contacto: 03471-422131</p>
+                    <p class="parrafo-footer">Ubicacion: Bv. Centenario 1075,<br> Cañada de Gomez.</p></li>
+                    <br>
+                </ul>
+            </h1>
+        </div>
+    </footer>
+</body>
+</html>

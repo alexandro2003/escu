@@ -1,0 +1,73 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscripcion a materias</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'style/inscripcionmaterias.css' %}">
+
+</head>
+<body>
+<header>
+    <h1 class="bienvenido1"></h1>
+    <div class="logo">
+        <img src="{% static 'logoescu.png' %}" alt="logo"> 
+    </div>
+</header>
+<h3 class="tituloinscripcion">INSCRIPCION A MATERIAS</h3>
+<!-- FORMULARIO INICIO SESION-->
+<form action="#" method="post" class="inscripcionmat">
+    <input class="inscripcionm" type="text" name="nombre" placeholder="Nombre" >
+    <br>
+    <br>
+    <input class="inscripcionm" type="text" name="apellido" placeholder="Apellido">
+    <br>
+    <br>
+    <input class="inscripcionm" type="number" name="dni" size="6" placeholder=" DNI">
+    <br>
+    <br>
+    <br>
+    <input class="inscripcionm" type="text" name="localidad" placeholder="Localidad">
+    <br>
+    <br>
+    <input class="inscripcionm" type="text" name="direccion" placeholder="Direccion" >
+    <br>
+    <br>
+    <br>
+    <input class="inscripcionm" type="text" name="email" placeholder="E-mail">
+    <br>
+    <br>
+    <input class="inscripcionm" type="text" name="telefono" placeholder="Telefono">
+</form><br>
+<a class="boton" href="{% url 'inscripcionmaterias2' %}" type="submit">Siguiente</a>
+<a class="boton" href="{% url 'home' %}">Volver a Inicio</a>
+
+<footer> 
+    <div class="footer-logo">
+        <img src="{% static 'logoescu.png' %}" alt="logo"> 
+    </div>
+    <hr>
+    <div>
+        <br>
+        <h1 class="social-footer"> Redes Sociales
+            <ul>
+                <a class="link-footer"  href="#">Instagram </a><br>
+                <a class="link-footer"  href="#">Pagina Oficial </a>
+                <br>
+            </ul>
+        </h1>
+    </div>
+    <div>
+        <h1 class="info-footer"> Informacion
+            <ul>
+                <p class="parrafo-footer ">Contacto: 03471-422131</p>
+                <p class="parrafo-footer">Ubicacion: Bv. Centenario 1075,<br> Cañada de Gomez.</p></li>
+                <br>
+            </ul>
+        </h1>
+    </div>
+</footer>
+
+</body>
+</html>
